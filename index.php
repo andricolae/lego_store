@@ -24,8 +24,8 @@
 </head>
 
 <body>
-				
-    <?php 
+
+    <?php
     include("header_index.php");
     include("main_body.php");
     ?>
