@@ -128,11 +128,11 @@
         $pdoResult=$con->prepare("INSERT INTO users (username,phone,address,email,password) VALUES ('$username','$phone','$address','$email','$password')");
             
         if($pdoResult->execute()){
-            echo"<script>alert('Register succefully')</script>";
+            echo"<script>alert('Registered Succefully')</script>";
             echo"<script>window.open('login.php','_self')</script>";
         }
         else{
-            echo "Info not submited!";
+            echo "Info Not Submited!";
         }
     }
 ?>

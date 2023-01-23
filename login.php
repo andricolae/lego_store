@@ -27,7 +27,7 @@
             }
         }
         if ($a == 1) {
-            echo "<h1>username and password incorrect</h1>";
+            echo "<h1>Incorrect Login Credentials</h1>";
         }
     }
 ?>
